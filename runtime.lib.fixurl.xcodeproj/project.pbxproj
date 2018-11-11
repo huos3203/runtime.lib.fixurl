@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8484462D2196A1F600282C82 /* runtime_lib_fixurl.h in Headers */ = {isa = PBXBuildFile; fileRef = 8484462B2196A1F600282C82 /* runtime_lib_fixurl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		848446422196CBC200282C82 /* FixUrlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8484463A2196A20A00282C82 /* FixUrlViewController.m */; };
+		848446442196D27F00282C82 /* FixUrlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848446432196D27F00282C82 /* FixUrlViewController.xib */; };
+		8484464E2197486000282C82 /* NSURL+FixChinese.m in Sources */ = {isa = PBXBuildFile; fileRef = 8484464C2197486000282C82 /* NSURL+FixChinese.m */; };
+		848446592197652800282C82 /* runtime_lib_lazyMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 848446572197652800282C82 /* runtime_lib_lazyMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8484465F2197655200282C82 /* LazyMethodController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8484465D2197655200282C82 /* LazyMethodController.h */; };
+		848446602197655200282C82 /* LazyMethodController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8484465E2197655200282C82 /* LazyMethodController.m */; };
+		848446632197656800282C82 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = 848446612197656800282C82 /* Person.h */; };
+		848446642197656800282C82 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 848446622197656800282C82 /* Person.m */; };
+		84844674219780C300282C82 /* runtime_lib_reactiveKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = 84844672219780C300282C82 /* runtime_lib_reactiveKVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84844680219781F100282C82 /* ReactiveController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8484467E219781F100282C82 /* ReactiveController.h */; };
+		84844681219781F100282C82 /* ReactiveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8484467F219781F100282C82 /* ReactiveController.m */; };
+		84844684219782DA00282C82 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = 84844682219782DA00282C82 /* Person.h */; };
+		84844685219782DA00282C82 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 84844683219782DA00282C82 /* Person.m */; };
+		848446882197860400282C82 /* NSKVONotifing_Person.h in Headers */ = {isa = PBXBuildFile; fileRef = 848446862197860400282C82 /* NSKVONotifing_Person.h */; };
+		848446892197860400282C82 /* NSKVONotifing_Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 848446872197860400282C82 /* NSKVONotifing_Person.m */; };
+		8484468C219789FC00282C82 /* NSObject+KVO.h in Headers */ = {isa = PBXBuildFile; fileRef = 8484468A219789FC00282C82 /* NSObject+KVO.h */; };
+		8484468D219789FC00282C82 /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 8484468B219789FC00282C82 /* NSObject+KVO.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		848446282196A1F600282C82 /* runtime_lib_fixurl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = runtime_lib_fixurl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8484462B2196A1F600282C82 /* runtime_lib_fixurl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = runtime_lib_fixurl.h; sourceTree = "<group>"; };
+		8484462C2196A1F600282C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848446392196A20A00282C82 /* FixUrlViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FixUrlViewController.h; sourceTree = "<group>"; };
+		8484463A2196A20A00282C82 /* FixUrlViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FixUrlViewController.m; sourceTree = "<group>"; };
+		848446432196D27F00282C82 /* FixUrlViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FixUrlViewController.xib; sourceTree = "<group>"; };
+		8484464B2197486000282C82 /* NSURL+FixChinese.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+FixChinese.h"; sourceTree = "<group>"; };
+		8484464C2197486000282C82 /* NSURL+FixChinese.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+FixChinese.m"; sourceTree = "<group>"; };
+		8484464F2197617F00282C82 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		848446552197652700282C82 /* runtime_lib_lazyMethod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = runtime_lib_lazyMethod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		848446572197652800282C82 /* runtime_lib_lazyMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = runtime_lib_lazyMethod.h; sourceTree = "<group>"; };
+		848446582197652800282C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8484465D2197655200282C82 /* LazyMethodController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LazyMethodController.h; sourceTree = "<group>"; };
+		8484465E2197655200282C82 /* LazyMethodController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LazyMethodController.m; sourceTree = "<group>"; };
+		848446612197656800282C82 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		848446622197656800282C82 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		84844670219780C100282C82 /* runtime_lib_reactiveKVO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = runtime_lib_reactiveKVO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84844672219780C300282C82 /* runtime_lib_reactiveKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = runtime_lib_reactiveKVO.h; sourceTree = "<group>"; };
+		84844673219780C300282C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8484467E219781F100282C82 /* ReactiveController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactiveController.h; sourceTree = "<group>"; };
+		8484467F219781F100282C82 /* ReactiveController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveController.m; sourceTree = "<group>"; };
+		84844682219782DA00282C82 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		84844683219782DA00282C82 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		848446862197860400282C82 /* NSKVONotifing_Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSKVONotifing_Person.h; sourceTree = "<group>"; };
+		848446872197860400282C82 /* NSKVONotifing_Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSKVONotifing_Person.m; sourceTree = "<group>"; };
+		8484468A219789FC00282C82 /* NSObject+KVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO.h"; sourceTree = "<group>"; };
+		8484468B219789FC00282C82 /* NSObject+KVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		848446252196A1F600282C82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848446522197652700282C82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8484466D219780C100282C82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8484461E2196A1F600282C82 = {
+			isa = PBXGroup;
+			children = (
+				8484464F2197617F00282C82 /* README.md */,
+				8484462A2196A1F600282C82 /* runtime.lib.fixurl */,
+				848446562197652800282C82 /* runtime.lib.lazyMethod */,
+				84844671219780C300282C82 /* runtime.lib.reactiveKVO */,
+				848446292196A1F600282C82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		848446292196A1F600282C82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848446282196A1F600282C82 /* runtime_lib_fixurl.framework */,
+				848446552197652700282C82 /* runtime_lib_lazyMethod.framework */,
+				84844670219780C100282C82 /* runtime_lib_reactiveKVO.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8484462A2196A1F600282C82 /* runtime.lib.fixurl */ = {
+			isa = PBXGroup;
+			children = (
+				8484464B2197486000282C82 /* NSURL+FixChinese.h */,
+				8484464C2197486000282C82 /* NSURL+FixChinese.m */,
+				848446392196A20A00282C82 /* FixUrlViewController.h */,
+				8484463A2196A20A00282C82 /* FixUrlViewController.m */,
+				8484462B2196A1F600282C82 /* runtime_lib_fixurl.h */,
+				8484462C2196A1F600282C82 /* Info.plist */,
+				848446432196D27F00282C82 /* FixUrlViewController.xib */,
+			);
+			path = runtime.lib.fixurl;
+			sourceTree = "<group>";
+		};
+		848446562197652800282C82 /* runtime.lib.lazyMethod */ = {
+			isa = PBXGroup;
+			children = (
+				848446612197656800282C82 /* Person.h */,
+				848446622197656800282C82 /* Person.m */,
+				848446572197652800282C82 /* runtime_lib_lazyMethod.h */,
+				848446582197652800282C82 /* Info.plist */,
+				8484465D2197655200282C82 /* LazyMethodController.h */,
+				8484465E2197655200282C82 /* LazyMethodController.m */,
+			);
+			path = runtime.lib.lazyMethod;
+			sourceTree = "<group>";
+		};
+		84844671219780C300282C82 /* runtime.lib.reactiveKVO */ = {
+			isa = PBXGroup;
+			children = (
+				84844672219780C300282C82 /* runtime_lib_reactiveKVO.h */,
+				84844673219780C300282C82 /* Info.plist */,
+				8484467E219781F100282C82 /* ReactiveController.h */,
+				8484467F219781F100282C82 /* ReactiveController.m */,
+				84844682219782DA00282C82 /* Person.h */,
+				84844683219782DA00282C82 /* Person.m */,
+				848446862197860400282C82 /* NSKVONotifing_Person.h */,
+				848446872197860400282C82 /* NSKVONotifing_Person.m */,
+				8484468A219789FC00282C82 /* NSObject+KVO.h */,
+				8484468B219789FC00282C82 /* NSObject+KVO.m */,
+			);
+			path = runtime.lib.reactiveKVO;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		848446232196A1F600282C82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8484462D2196A1F600282C82 /* runtime_lib_fixurl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848446502197652700282C82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848446592197652800282C82 /* runtime_lib_lazyMethod.h in Headers */,
+				8484465F2197655200282C82 /* LazyMethodController.h in Headers */,
+				848446632197656800282C82 /* Person.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8484466B219780C100282C82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84844674219780C300282C82 /* runtime_lib_reactiveKVO.h in Headers */,
+				848446882197860400282C82 /* NSKVONotifing_Person.h in Headers */,
+				8484468C219789FC00282C82 /* NSObject+KVO.h in Headers */,
+				84844680219781F100282C82 /* ReactiveController.h in Headers */,
+				84844684219782DA00282C82 /* Person.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		848446272196A1F600282C82 /* runtime.lib.fixurl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848446302196A1F600282C82 /* Build configuration list for PBXNativeTarget "runtime.lib.fixurl" */;
+			buildPhases = (
+				848446232196A1F600282C82 /* Headers */,
+				848446242196A1F600282C82 /* Sources */,
+				848446252196A1F600282C82 /* Frameworks */,
+				848446262196A1F600282C82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = runtime.lib.fixurl;
+			productName = runtime.lib.fixurl;
+			productReference = 848446282196A1F600282C82 /* runtime_lib_fixurl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		848446542197652700282C82 /* runtime.lib.lazyMethod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8484465A2197652800282C82 /* Build configuration list for PBXNativeTarget "runtime.lib.lazyMethod" */;
+			buildPhases = (
+				848446502197652700282C82 /* Headers */,
+				848446512197652700282C82 /* Sources */,
+				848446522197652700282C82 /* Frameworks */,
+				848446532197652700282C82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = runtime.lib.lazyMethod;
+			productName = runtime.lib.lazyMethod;
+			productReference = 848446552197652700282C82 /* runtime_lib_lazyMethod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8484466F219780C100282C82 /* runtime.lib.reactiveKVO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84844675219780C300282C82 /* Build configuration list for PBXNativeTarget "runtime.lib.reactiveKVO" */;
+			buildPhases = (
+				8484466B219780C100282C82 /* Headers */,
+				8484466C219780C100282C82 /* Sources */,
+				8484466D219780C100282C82 /* Frameworks */,
+				8484466E219780C100282C82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = runtime.lib.reactiveKVO;
+			productName = runtime.lib.reactiveKVO;
+			productReference = 84844670219780C100282C82 /* runtime_lib_reactiveKVO.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8484461F2196A1F600282C82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = huoshuguang;
+				TargetAttributes = {
+					848446272196A1F600282C82 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					848446542197652700282C82 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8484466F219780C100282C82 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 848446222196A1F600282C82 /* Build configuration list for PBXProject "runtime.lib.fixurl" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8484461E2196A1F600282C82;
+			productRefGroup = 848446292196A1F600282C82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				848446272196A1F600282C82 /* runtime.lib.fixurl */,
+				848446542197652700282C82 /* runtime.lib.lazyMethod */,
+				8484466F219780C100282C82 /* runtime.lib.reactiveKVO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		848446262196A1F600282C82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848446442196D27F00282C82 /* FixUrlViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848446532197652700282C82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8484466E219780C100282C82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		848446242196A1F600282C82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8484464E2197486000282C82 /* NSURL+FixChinese.m in Sources */,
+				848446422196CBC200282C82 /* FixUrlViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848446512197652700282C82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848446642197656800282C82 /* Person.m in Sources */,
+				848446602197655200282C82 /* LazyMethodController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8484466C219780C100282C82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8484468D219789FC00282C82 /* NSObject+KVO.m in Sources */,
+				84844685219782DA00282C82 /* Person.m in Sources */,
+				84844681219781F100282C82 /* ReactiveController.m in Sources */,
+				848446892197860400282C82 /* NSKVONotifing_Person.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8484462E2196A1F600282C82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8484462F2196A1F600282C82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		848446312196A1F600282C82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2C4H9T5RF5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = runtime.lib.fixurl/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hsg.com.cn.runtime-lib-fixurl";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		848446322196A1F600282C82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2C4H9T5RF5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = runtime.lib.fixurl/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hsg.com.cn.runtime-lib-fixurl";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8484465B2197652800282C82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2C4H9T5RF5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = runtime.lib.lazyMethod/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hsg.com.cn.runtime-lib-lazyMethod";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8484465C2197652800282C82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2C4H9T5RF5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = runtime.lib.lazyMethod/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hsg.com.cn.runtime-lib-lazyMethod";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84844676219780C300282C82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2C4H9T5RF5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = runtime.lib.reactiveKVO/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hsg.com.cn.runtime-lib-reactiveKVO";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84844677219780C300282C82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2C4H9T5RF5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = runtime.lib.reactiveKVO/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hsg.com.cn.runtime-lib-reactiveKVO";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		848446222196A1F600282C82 /* Build configuration list for PBXProject "runtime.lib.fixurl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8484462E2196A1F600282C82 /* Debug */,
+				8484462F2196A1F600282C82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848446302196A1F600282C82 /* Build configuration list for PBXNativeTarget "runtime.lib.fixurl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848446312196A1F600282C82 /* Debug */,
+				848446322196A1F600282C82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8484465A2197652800282C82 /* Build configuration list for PBXNativeTarget "runtime.lib.lazyMethod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8484465B2197652800282C82 /* Debug */,
+				8484465C2197652800282C82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84844675219780C300282C82 /* Build configuration list for PBXNativeTarget "runtime.lib.reactiveKVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84844676219780C300282C82 /* Debug */,
+				84844677219780C300282C82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8484461F2196A1F600282C82 /* Project object */;
+}
