@@ -39,6 +39,8 @@
     static int a = 0;
     a++;
     _p.name = [NSString stringWithFormat:@"%d",a];
+    
 }
 
 @end
+
