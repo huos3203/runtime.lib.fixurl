@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F0F58EEB601D30142FDA429 /* Pods_runtime_lib_fixurl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDEA5D18D0C08DAD2EBF555 /* Pods_runtime_lib_fixurl.framework */; };
 		8484462D2196A1F600282C82 /* runtime_lib_fixurl.h in Headers */ = {isa = PBXBuildFile; fileRef = 8484462B2196A1F600282C82 /* runtime_lib_fixurl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		848446422196CBC200282C82 /* FixUrlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8484463A2196A20A00282C82 /* FixUrlViewController.m */; };
 		848446442196D27F00282C82 /* FixUrlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848446432196D27F00282C82 /* FixUrlViewController.xib */; };
@@ -25,9 +26,15 @@
 		848446892197860400282C82 /* NSKVONotifing_Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 848446872197860400282C82 /* NSKVONotifing_Person.m */; };
 		8484468C219789FC00282C82 /* NSObject+KVO.h in Headers */ = {isa = PBXBuildFile; fileRef = 8484468A219789FC00282C82 /* NSObject+KVO.h */; };
 		8484468D219789FC00282C82 /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 8484468B219789FC00282C82 /* NSObject+KVO.m */; };
+		C366910D3E646C9E3BA02D47 /* Pods_runtime_lib_reactiveKVO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FAC9DF6897E2CA01CE15DF5 /* Pods_runtime_lib_reactiveKVO.framework */; };
+		C422D9765C3B26B7D94900F3 /* Pods_runtime_lib_lazyMethod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95C05C45039C44596C288C8F /* Pods_runtime_lib_lazyMethod.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01E9115BBC7252D62DDC21CE /* Pods-runtime.lib.reactiveKVO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-runtime.lib.reactiveKVO.release.xcconfig"; path = "Target Support Files/Pods-runtime.lib.reactiveKVO/Pods-runtime.lib.reactiveKVO.release.xcconfig"; sourceTree = "<group>"; };
+		1FAC9DF6897E2CA01CE15DF5 /* Pods_runtime_lib_reactiveKVO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_runtime_lib_reactiveKVO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D0E68FFF66CF6AE0B2BA331 /* Pods-runtime.lib.fixurl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-runtime.lib.fixurl.debug.xcconfig"; path = "Target Support Files/Pods-runtime.lib.fixurl/Pods-runtime.lib.fixurl.debug.xcconfig"; sourceTree = "<group>"; };
+		80796EF002761AAF54A2628B /* Pods-runtime.lib.fixurl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-runtime.lib.fixurl.release.xcconfig"; path = "Target Support Files/Pods-runtime.lib.fixurl/Pods-runtime.lib.fixurl.release.xcconfig"; sourceTree = "<group>"; };
 		848446282196A1F600282C82 /* runtime_lib_fixurl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = runtime_lib_fixurl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8484462B2196A1F600282C82 /* runtime_lib_fixurl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = runtime_lib_fixurl.h; sourceTree = "<group>"; };
 		8484462C2196A1F600282C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +62,11 @@
 		848446872197860400282C82 /* NSKVONotifing_Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSKVONotifing_Person.m; sourceTree = "<group>"; };
 		8484468A219789FC00282C82 /* NSObject+KVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO.h"; sourceTree = "<group>"; };
 		8484468B219789FC00282C82 /* NSObject+KVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
+		865A01753E68060AFAEA755D /* Pods-runtime.lib.reactiveKVO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-runtime.lib.reactiveKVO.debug.xcconfig"; path = "Target Support Files/Pods-runtime.lib.reactiveKVO/Pods-runtime.lib.reactiveKVO.debug.xcconfig"; sourceTree = "<group>"; };
+		95C05C45039C44596C288C8F /* Pods_runtime_lib_lazyMethod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_runtime_lib_lazyMethod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A8F68C4C060FA254758D2B /* Pods-runtime.lib.lazyMethod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-runtime.lib.lazyMethod.release.xcconfig"; path = "Target Support Files/Pods-runtime.lib.lazyMethod/Pods-runtime.lib.lazyMethod.release.xcconfig"; sourceTree = "<group>"; };
+		FB02F493BA82F95ACCC60F45 /* Pods-runtime.lib.lazyMethod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-runtime.lib.lazyMethod.debug.xcconfig"; path = "Target Support Files/Pods-runtime.lib.lazyMethod/Pods-runtime.lib.lazyMethod.debug.xcconfig"; sourceTree = "<group>"; };
+		FEDEA5D18D0C08DAD2EBF555 /* Pods_runtime_lib_fixurl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_runtime_lib_fixurl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F0F58EEB601D30142FDA429 /* Pods_runtime_lib_fixurl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C422D9765C3B26B7D94900F3 /* Pods_runtime_lib_lazyMethod.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +90,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C366910D3E646C9E3BA02D47 /* Pods_runtime_lib_reactiveKVO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		045E20AA5906C88A5B40CA0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D0E68FFF66CF6AE0B2BA331 /* Pods-runtime.lib.fixurl.debug.xcconfig */,
+				80796EF002761AAF54A2628B /* Pods-runtime.lib.fixurl.release.xcconfig */,
+				FB02F493BA82F95ACCC60F45 /* Pods-runtime.lib.lazyMethod.debug.xcconfig */,
+				A3A8F68C4C060FA254758D2B /* Pods-runtime.lib.lazyMethod.release.xcconfig */,
+				865A01753E68060AFAEA755D /* Pods-runtime.lib.reactiveKVO.debug.xcconfig */,
+				01E9115BBC7252D62DDC21CE /* Pods-runtime.lib.reactiveKVO.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../../../Pods;
+			sourceTree = "<group>";
+		};
+		550BBD44DB9BE72ACAF4D9E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEDEA5D18D0C08DAD2EBF555 /* Pods_runtime_lib_fixurl.framework */,
+				95C05C45039C44596C288C8F /* Pods_runtime_lib_lazyMethod.framework */,
+				1FAC9DF6897E2CA01CE15DF5 /* Pods_runtime_lib_reactiveKVO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8484461E2196A1F600282C82 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +129,8 @@
 				848446562197652800282C82 /* runtime.lib.lazyMethod */,
 				84844671219780C300282C82 /* runtime.lib.reactiveKVO */,
 				848446292196A1F600282C82 /* Products */,
+				045E20AA5906C88A5B40CA0D /* Pods */,
+				550BBD44DB9BE72ACAF4D9E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -187,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 848446302196A1F600282C82 /* Build configuration list for PBXNativeTarget "runtime.lib.fixurl" */;
 			buildPhases = (
+				528A17707BAEAC42A3623DC8 /* [CP] Check Pods Manifest.lock */,
 				848446232196A1F600282C82 /* Headers */,
 				848446242196A1F600282C82 /* Sources */,
 				848446252196A1F600282C82 /* Frameworks */,
@@ -205,6 +247,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8484465A2197652800282C82 /* Build configuration list for PBXNativeTarget "runtime.lib.lazyMethod" */;
 			buildPhases = (
+				75B091C1BA167E5A0BCC6094 /* [CP] Check Pods Manifest.lock */,
 				848446502197652700282C82 /* Headers */,
 				848446512197652700282C82 /* Sources */,
 				848446522197652700282C82 /* Frameworks */,
@@ -223,6 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84844675219780C300282C82 /* Build configuration list for PBXNativeTarget "runtime.lib.reactiveKVO" */;
 			buildPhases = (
+				F4EAE761848E7A9167D303B1 /* [CP] Check Pods Manifest.lock */,
 				8484466B219780C100282C82 /* Headers */,
 				8484466C219780C100282C82 /* Sources */,
 				8484466D219780C100282C82 /* Frameworks */,
@@ -300,6 +344,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		528A17707BAEAC42A3623DC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-runtime.lib.fixurl-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75B091C1BA167E5A0BCC6094 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-runtime.lib.lazyMethod-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4EAE761848E7A9167D303B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-runtime.lib.reactiveKVO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		848446242196A1F600282C82 /* Sources */ = {
@@ -454,6 +567,7 @@
 		};
 		848446312196A1F600282C82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D0E68FFF66CF6AE0B2BA331 /* Pods-runtime.lib.fixurl.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -479,6 +593,7 @@
 		};
 		848446322196A1F600282C82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80796EF002761AAF54A2628B /* Pods-runtime.lib.fixurl.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +619,7 @@
 		};
 		8484465B2197652800282C82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB02F493BA82F95ACCC60F45 /* Pods-runtime.lib.lazyMethod.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -529,6 +645,7 @@
 		};
 		8484465C2197652800282C82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3A8F68C4C060FA254758D2B /* Pods-runtime.lib.lazyMethod.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -554,6 +671,7 @@
 		};
 		84844676219780C300282C82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 865A01753E68060AFAEA755D /* Pods-runtime.lib.reactiveKVO.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -579,6 +697,7 @@
 		};
 		84844677219780C300282C82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E9115BBC7252D62DDC21CE /* Pods-runtime.lib.reactiveKVO.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
